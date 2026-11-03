@@ -124,6 +124,12 @@ Both scripts run Google’s locally installed `cwebp` encoder on your computer; 
 
 Metadata is not preserved by default. You can change the `cwebp` command in the relevant script to suit your workflow; see the [official cwebp reference](https://developers.google.com/speed/webp/docs/cwebp) for available options.
 
+## 🛡️ Windows Smart App Control
+
+Windows Smart App Control can block the downloaded `.cmd` file because it treats some internet-origin scripts as potentially unsafe. **A block does not, by itself, mean that this project is malicious.** This project is intended to convert your selected images locally using Google's `cwebp`; its source code is available here for review, and the scripts do not upload your images to a conversion service.
+
+The current Windows script is not a signed application, so we cannot guarantee that Smart App Control will allow it. Please download only from the [official project repository](https://github.com/InfoYaseer/webp-image-converter) and obtain the encoder from [Google's official download page](https://developers.google.com/speed/webp/download). You can use the documented Python command-line option if your device permits it; security policies can also affect that option. For more information, see [Microsoft's Smart App Control guidance](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview).
+
 ## 🛠️ Troubleshooting
 
 | Problem | What to check |
