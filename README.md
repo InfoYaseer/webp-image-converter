@@ -165,6 +165,8 @@ You need a connection to download the project and encoder. Once installed, the c
 🌐 [yaseerm.me](https://yaseerm.me)  
 ✉️ [yaseer.inbox@hotmail.com](mailto:yaseer.inbox@hotmail.com)
 
+[![Visit Mohamed Yaseer on GitHub](https://img.shields.io/badge/Visit%20my%20GitHub-InfoYaseer-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/InfoYaseer/infoyaseer)
+
 ## 📄 License
 
 Copyright © 2026 Mohamed Yaseer. This project is released under the [MIT License](LICENSE). You may use, modify, and distribute it under the license terms, including preservation of the copyright and permission notice.
