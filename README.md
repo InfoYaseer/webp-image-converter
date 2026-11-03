@@ -11,7 +11,7 @@ Turn PNG and JPEG images into consistently sized WebP files with a simple Window
 ![Output](https://img.shields.io/badge/Output-WebP-00A67E?style=for-the-badge)
 ![License](https://img.shields.io/badge/License-MIT-8A4FFF?style=for-the-badge)
 
-[Get started](#-get-started) · [How it works](#-how-it-works) · [Conversion settings](#%EF%B8%8F-conversion-settings) · [Troubleshooting](#-troubleshooting) · [Developer](#-developer)
+[Get started](#-get-started) · [How it works](#-how-it-works) · [Conversion settings](#%EF%B8%8F-conversion-settings) · [Troubleshooting](#-troubleshooting) · [Developer](#%E2%80%8D-developer)
 
 </div>
 
