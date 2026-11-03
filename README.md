@@ -72,7 +72,7 @@ For macOS and Linux, `cwebp` can also be placed in `bin` beside `convert.py` or 
 
 ### 3. Convert your images
 
-**Windows drag and drop:** Select one or more square PNG or JPEG files in File Explorer and drag them onto `Convert images to WebP.cmd`. Press any key after checking the summary.
+**Windows drag and drop:** Select one or more square PNG or JPEG files in File Explorer and drag them onto `Convert images to WebP.cmd`. Press any key after checking the summary. Windows Smart App Control may block downloaded scripts; see [Troubleshooting](#%EF%B8%8F-troubleshooting).
 
 **Windows terminal:**
 
@@ -128,6 +128,7 @@ Metadata is not preserved by default. You can change the `cwebp` command in the 
 
 | Problem | What to check |
 | :--- | :--- |
+| **Windows Smart App Control blocks the `.cmd` file** | Windows may block downloaded scripts. Leave the protection enabled. You can try the documented Python command-line option if Python and the project files are permitted on your device; it is not guaranteed to work under every security policy. See [Microsoft’s Smart App Control guidance](https://learn.microsoft.com/en-us/windows/apps/develop/smart-app-control/overview). |
 | **`cwebp.exe was not found`** | Extract the encoder download and check its filename and location. Place it in `bin` beside the scripts, beside the scripts themselves, or on `PATH`. On macOS and Linux, ensure it is executable. |
 | **Cannot create an output folder** | Move the project to a writable folder and try again. |
 | **Image looks stretched** | Start with a square source image. The script resizes both dimensions to 720 pixels. |
@@ -138,7 +139,7 @@ Metadata is not preserved by default. You can change the `cwebp` command in the 
 ## ❓ Frequently asked questions
 
 **Can I convert several images at once?**  
-Yes. Select multiple supported files and drop them onto the script together.
+Yes. Pass multiple supported files to the Python command, or on Windows drag them onto the `.cmd` file together if Windows permits it to run.
 
 **Will my original files change?**  
 No. The converter writes new `.webp` files in its output folder and leaves your source files in place.
